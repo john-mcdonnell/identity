@@ -1,6 +1,7 @@
 #!/bin/sh
 
 npm install grunt --global
+npm install jshint --global
 npm install fixpack --global
 npm install grunt --save-exact --save-dev
 npm install grunt-contrib-compress --save-exact --save-dev
