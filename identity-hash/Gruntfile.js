@@ -10,14 +10,14 @@ module.exports = function (grunt) {
         commit: true,
         commitMessage: 'Release v%VERSION%',
         commitFiles: ['package.json'],
-        createTag: false,
+        createTag: true,
         tagName: 'v%VERSION%',
         tagMessage: 'Version %VERSION%',
         push: false,
         pushTo: 'upstream',
         gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d',
         globalReplace: false,
-        prereleaseName: false,
+        prereleaseName: true,
         metadata: '',
         regExp: false
       }
